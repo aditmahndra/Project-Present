@@ -23,7 +23,7 @@ function Header() {
     <section className="header">
       <div
         ref={menuRef}
-        className={`${baseClasses} ${open ? openClasses : ""}`}
+        className={`${baseClasses} ${open ? "menu-open" : ""}`}
         onClick={(e) => {
           e.stopPropagation();
           setOpen((prev) => !prev);
