@@ -5,6 +5,8 @@ import { faHouse } from "@fortawesome/free-solid-svg-icons";
 function Header() {
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);
+  const baseClasses =
+    "bg-white/3 border border-white/12 text-white rounded-full py-2.5 pl-9 w-44 flex justify-center items-center overflow-hidden backdrop-blur-md backdrop-saturate-150 transition-all duration-500 ease-in-out cursor-pointer h-[55px] fixed top-6 left-1/2 -translate-x-1/2 z-[99999] shadow-[0_0_22px_rgba(255,255,255,0.38),0_0_40px_rgba(255,255,255,0.20),0_4px_14px_rgba(0,0,0,0.75),inset_0_1px_0_rgba(255,255,255,0.08)]";
 
   useEffect(() => {
     const handleClickOutside = (e) => {
@@ -14,15 +16,14 @@ function Header() {
     };
 
     document.addEventListener("mousedown", handleClickOutside);
-    return () =>
-      document.removeEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   return (
     <section className="header">
       <div
         ref={menuRef}
-        className={`menu ${open ? "menu-open" : ""}`}
+        className={`${baseClasses} ${open ? openClasses : ""}`}
         onClick={(e) => {
           e.stopPropagation();
           setOpen((prev) => !prev);
@@ -30,10 +31,12 @@ function Header() {
       >
         {/* ICON */}
         <div className="icon">
-          <FontAwesomeIcon
-            icon={faHouse}
-            className="text-white w-5 h-5 absolute top-3 md:top-4 left-4 md:left-[20px] z-10 transition-opacity duration-300"
-          />
+          <a href="/">
+            <FontAwesomeIcon
+              icon={faHouse}
+              className="text-white w-5 h-5 absolute top-3 md:top-4 left-4 md:left-[20px] z-10 transition-opacity duration-300"
+            />
+          </a>
         </div>
 
         {/* MENU LIST */}

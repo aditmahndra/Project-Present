@@ -25,7 +25,7 @@ p {
   position: relative;
 }
 
-.header .menu {
+/* .header .menu {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.12);
   color: white;
@@ -58,7 +58,7 @@ p {
     0 0 40px rgba(255, 255, 255, 0.20),  
     0 4px 14px rgba(0, 0, 0, 0.75),    
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
-}
+} */
 
 .header .menu::before {
   content: "";
