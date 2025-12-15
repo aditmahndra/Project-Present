@@ -182,6 +182,11 @@ p {
     width: 300px !important;
     height: 200px !important;
   }
+
+  .header .menu-open .icon {
+    top: 30px;
+    left: 20px;
+  }
   .header .menu-open ul {
     opacity: 1;
     flex-direction: column;

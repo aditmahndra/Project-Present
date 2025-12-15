@@ -34,7 +34,8 @@ function Header() {
           <a href="/">
             <FontAwesomeIcon
               icon={faHouse}
-              className="text-white w-5 h-5 absolute top-3 md:top-4 left-4 md:left-[20px] z-10 transition-opacity duration-300"
+              className={`text-white w-5 h-5 absolute transition-all duration-300
+    ${open ? "top-1/2 left-5 -translate-y-1/2" : "top-3 left-4"}`}
             />
           </a>
         </div>
