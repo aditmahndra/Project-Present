@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import { Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SharandyDesain from "./pages/SharandyDesign";
 import SharandyWeb from "./pages/SharandyWeb";
 import Wananta from "./pages/Wananta";
@@ -14,6 +15,7 @@ import Detail from "./pages/Detail";
 
 import Header from "./assets/components/Header";
 import Footer from "./assets/components/Footer";
+import ScrollToTop from "./assets/components/ScrollToTop";
 import TextPressure from "./assets/components/TextPressure";
 import TiltedCard from "./assets/components/TiltedCard";
 import Aurora from "./assets/components/Aurora";
@@ -129,7 +131,7 @@ function Landing() {
                 dan mengembangkan kemampuan dalam UI/UX Design untuk
                 menghadirkan pengalaman pengguna yang nyaman dan estetis.
               </p>
-              <div className="flex flex-row justify-end gap-3 md:gap-6 mx-auto md:mx-0">
+              <div className="flex flex-wrap flex-row justify-center md:justify-end gap-3 md:gap-6 mx-auto md:mx-0">
                 <div className="rounded-4xl bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] py-2 px-4 md:px-8 w-max">
                   <p className="text-white text-[12px] md:text-[16px]">
                     XI RPL 2
@@ -318,12 +320,12 @@ function Landing() {
                 </div>
                 <div className="w-1/5 max-md:mt-4 max-md:w-full">
                   <div className="w-full text-center">
-                    <a
-                      href="/Sharandy"
+                    <Link
+                      to="/Sharandy"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
                       See More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -350,12 +352,12 @@ function Landing() {
                 </div>
                 <div className="w-1/5 max-md:mt-4 max-md:w-full">
                   <div className="w-full text-center">
-                    <a
-                      href="/Wananta"
+                    <Link
+                      to="/Wananta"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
                       See More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -382,12 +384,12 @@ function Landing() {
                 </div>
                 <div className="w-1/5 max-md:mt-4 max-md:w-full">
                   <div className="w-full text-center">
-                    <a
-                      href="/Aztravel"
+                    <Link
+                      to="/Aztravel"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
                       See More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -412,12 +414,12 @@ function Landing() {
                 </div>
                 <div className="w-1/5 max-md:mt-4 max-md:w-full">
                   <div className="w-full text-center">
-                    <a
-                      href="/Sharandy-Design"
+                    <Link
+                      to="/Sharandy-Design"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
                       See More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -442,12 +444,12 @@ function Landing() {
                 </div>
                 <div className="w-1/5 max-md:mt-4 max-md:w-full">
                   <div className="w-full text-center">
-                    <a
-                      href="/Svaha"
+                    <Link
+                      to="/Svaha"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
                       See More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -472,24 +474,24 @@ function Landing() {
                 </div>
                 <div className="w-1/5 max-md:mt-4 max-md:w-full">
                   <div className="w-full text-center">
-                    <a
-                      href="/BDI"
+                    <Link
+                      to="/BDI"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
                       See More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </SpotlightCard>
             <div className="w-full text-center mt-10 md:mt-0">
-          <a
-            href="/Detail"
-            className="inline-block px-8 py-3 rounded-4xl text-xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
-          >
-            Detail Project
-          </a>
-        </div>
+              <Link
+                to="/Detail"
+                className="inline-block px-8 py-3 rounded-4xl text-xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
+              >
+                Detail Project
+              </Link>
+            </div>
           </div>
 
           {/* Project Desktop */}
@@ -523,15 +525,15 @@ function Landing() {
                       </div>
                       <div className="w-1/5 max-md:mt-4 max-md:w-full">
                         <div className="w-full text-center">
-                          <a
-                            href="/Sharandy-Design"
+                          <Link
+                            to="/Sharandy-Design"
                             className="inline-block px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                           >
                             <FontAwesomeIcon
                               className="text-[20px]"
                               icon={faArrowRight}
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -567,12 +569,12 @@ function Landing() {
                           memadukan elemen kayu tradisional dengan desain
                           yang...
                         </p>
-                        <a
-                          href="/Sharandy"
+                        <Link
+                          to="/Sharandy"
                           className="inline-block px-10 py-2 mt-7 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                         >
                           See Detail
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SpotlightCard>
@@ -605,12 +607,12 @@ function Landing() {
                           untuk menjadikan sebuah properti lebih
                           menguntungkan...
                         </p>
-                        <a
-                          href="/Wananta"
+                        <Link
+                          to="/Wananta"
                           className="inline-block px-10 py-2 mt-7 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                         >
                           See Detail
-                        </a>
+                        </Link>
                       </div>
                       <div className="w-[40%] h-85 max-md:w-full max-md:h-auto">
                         <img
@@ -635,15 +637,15 @@ function Landing() {
                     <div className="flex mt-[24px] max-md:flex-col-reverse max-md:items-center">
                       <div className="w-1/5 max-md:w-full max-md:mt-4">
                         <div className="w-full text-center">
-                          <a
-                            href="/Svaha"
+                          <Link
+                            to="/Svaha"
                             className="inline-block px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                           >
                             <FontAwesomeIcon
                               className="text-[20px]"
                               icon={faArrowRight}
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="w-4/5 h-full max-md:w-full">
@@ -684,15 +686,15 @@ function Landing() {
                       </div>
                       <div className="w-1/5 max-md:w-full max-md:mt-4">
                         <div className="w-full text-center">
-                          <a
-                            href="/BDI"
+                          <Link
+                            to="/BDI"
                             className="inline-block px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                           >
                             <FontAwesomeIcon
                               className="text-[20px]"
                               icon={faArrowRight}
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -728,28 +730,27 @@ function Landing() {
                           tempat-tempat tersembunyi yang jarang dijamah... dan
                           berkesan.
                         </p>
-                        <a
-                          href="/AzTravel"
+                        <Link
+                          to="/AzTravel"
                           className="inline-block px-10 py-2 mt-7 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                         >
                           See Detail
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SpotlightCard>
                 </div>
               </div>
             </ScrollScaleItem>
-            <div className="w-full text-center mt-10 md:mt-0">
-          <a
-            href="/Detail"
-            className="inline-block px-8 py-3 rounded-4xl text-xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
-          >
-            Project Detail
-          </a>
-        </div>
+            <div className="w-full text-center mt-10 md:mt-4">
+              <Link
+                to="/Detail"
+                className="inline-block px-8 py-3 rounded-4xl text-xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
+              >
+                Project Detail
+              </Link>
+            </div>
           </ScrollScale>
-          
 
           <TextType
             className="text-white text-center mt-[100px] text-4xl md:text-[48px] mb-5 md:mb-0 text-[montserrat]"
@@ -974,22 +975,23 @@ function Landing() {
         </div>
 
         {/* Container Gallery */}
-        <div id="gallery" className="h-[600px] hidden md:block md:mt-[-00px]">
-          <CircularGallery
-            bend={2}
-            textColor="#ffffff"
-            borderRadius={0.05}
-            scrollEase={0.02}
-          />
-        </div>
-
-        <div className="w-full text-center mt-10 md:mt-0">
-          <a
-            href="/Gallery"
-            className="inline-block px-8 py-3 rounded-4xl text-xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
-          >
-            See Gallery
-          </a>
+        <div id="gallery" className="h-auto  md:mt-[-00px]">
+          <div className="h-[600px] hidden md:block">
+            <CircularGallery
+              bend={2}
+              textColor="#ffffff"
+              borderRadius={0.05}
+              scrollEase={0.02}
+            />
+          </div>
+          <div className="w-full text-center mt-10 md:mt-0">
+            <Link
+              to="/Gallery"
+              className="inline-block px-8 py-3 rounded-4xl text-xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
+            >
+              See Gallery
+            </Link>
+          </div>
         </div>
 
         {/* Kesimpulan Finale */}
@@ -1040,16 +1042,19 @@ function Landing() {
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Landing />} />
-      <Route path="/Sharandy-Design" element={<SharandyDesain />} />
-      <Route path="/Sharandy" element={<SharandyWeb />} />
-      <Route path="/Wananta" element={<Wananta />} />
-      <Route path="/AzTravel" element={<AzTravel />} />
-      <Route path="/BDI" element={<BDI />} />
-      <Route path="/Svaha" element={<Svaha />} />
-      <Route path="/Gallery" element={<Gallery />} />
-      <Route path="/Detail" element={<Detail />} />
-    </Routes>
+    <>
+    <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/Sharandy-Design" element={<SharandyDesain />} />
+        <Route path="/Sharandy" element={<SharandyWeb />} />
+        <Route path="/Wananta" element={<Wananta />} />
+        <Route path="/AzTravel" element={<AzTravel />} />
+        <Route path="/BDI" element={<BDI />} />
+        <Route path="/Svaha" element={<Svaha />} />
+        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/Detail" element={<Detail />} />
+      </Routes>
+    </>
   );
 }
