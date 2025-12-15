@@ -117,7 +117,7 @@ function Landing() {
               <p className=" text-white text-[18px] md:text-3xl text-center md:text-right">
                 Hallo! Perkenalkan nama saya <br></br>
                 <span className="font-semibold">
-                  I Kadek Aditya Mahendra Putra.
+                  I Kadek Aditya Mahendra Putra
                 </span>
               </p>
               <p className="text-white text-[12px] md:text-[16px] text-justify md:[text-align-last:right] mb-[20px] md:mb-[40px] mt-4">
