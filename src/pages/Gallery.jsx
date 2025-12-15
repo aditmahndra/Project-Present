@@ -56,7 +56,7 @@ export default function Gallery() {
                 <img src="./gallery/17.jpeg" alt="" className="w-full h-40 md:h-100 object-[center_90%] object-cover" />
             </div>
             <div className="col-span-6 md:col-span-4">
-                <img src="./gallery/9.jpeg" alt="" className="w-full h-40 md:h-100 object-[center_90%] object-cover" />
+                <img src="./gallery/20.jpeg" alt="" className="w-full h-40 md:h-100 object-[center_90%] object-cover" />
             </div>
             <div className="col-span-6 md:col-span-4">
                 <img src="./gallery/8.jpeg" alt="" className="w-full h-40 md:h-100 object-[center_90%] object-cover" />

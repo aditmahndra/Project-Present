@@ -61,7 +61,7 @@ function Landing() {
               <TiltedCard
                 imageSrc="sekolah.png"
                 altText="PKL"
-                captionText="Aditya"
+                captionText="TI Bali Global"
                 containerHeight="100%"
                 containerWidth="100%"
                 imageHeight="550px"
@@ -94,7 +94,7 @@ function Landing() {
 
               <p className="text-white text-justify pt-4 text-[12px] md:text-[16px] hidden md:block">
                 Selamat datang di website laporan saya! Di sini berisikan
-                laporan mengenai kegiatan praktrin yang saya jalani, mulai dari
+                laporan mengenai kegiatan PKL yang saya jalani, mulai dari
                 tugas-tugas yang saya kerjakan, pengalaman yang saya
                 dapatkan,hingga berbagai hal baru yang berhasil saya pelajari
                 selama berada di perusahaan. Website ini saya buat sebagai media
@@ -113,7 +113,7 @@ function Landing() {
           <div className="grid grid-cols-12 w-full h-auto md:h-[600px] rounded-4xl bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%]">
             <div className="col-span-12 md:col-span-7 px-4 py-8 md:py-8 flex justify-center flex-col md:pl-[50px]">
               <span className=" bg-gradient-to-b from-white to-slate-400/30 bg-clip-text text-transparent font-semibold leading-none text-[30px] flex justify-center md:justify-end md:text-5xl  mb-4 md:mb-[30px]">
-                ABOUT ME
+                TENTANG
               </span>
 
               <p className=" text-white text-[18px] md:text-3xl text-center md:text-right">
@@ -128,7 +128,7 @@ function Landing() {
                 Berusia 16 Tahun dan Berdomisili di Denpasar, Bali. Saya seorang
                 Front-End Developer yang fokus membangun website modern,
                 responsif, dan mudah digunakan. Selain itu, saya juga tertarik
-                dan mengembangkan kemampuan dalam UI/UX Design untuk
+                dan mengembangkan kemampuan dalam UI/UX Desain untuk
                 menghadirkan pengalaman pengguna yang nyaman dan estetis.
               </p>
               <div className="flex flex-wrap flex-row justify-center md:justify-end gap-3 md:gap-6 mx-auto md:mx-0">
@@ -179,7 +179,7 @@ function Landing() {
               {/* About Section */}
               <div className="col-span-1 md:col-span-6 md:row-span-12 md:col-start-7 px-4 md:px-8 py-6 md:py-10 flex flex-col justify-center rounded-4xl bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%]">
                 <span className="bg-gradient-to-b from-white to-slate-400/30 bg-clip-text text-transparent font-semibold text-[24px] md:text-[30px] text-center mb-4 md:mb-[20px]">
-                  ABOUT ALAMAYA
+                  TENTANG ALAMAYA
                 </span>
 
                 <p className="text-white text-justify text-sm md:text-base">
@@ -244,7 +244,7 @@ function Landing() {
                       <span className="md:text-[25px]">+</span>
                     </div>
                     <p className="text-white text-base md:text-base">
-                      Years Experience
+                      Tahun Pengalaman
                     </p>
                   </div>
 
@@ -260,7 +260,7 @@ function Landing() {
                       <span className="md:text-[25px]">+</span>
                     </div>
                     <p className="text-white text-base md:text-base">
-                      Project Finished
+                      Projek Terselesaikan
                     </p>
                   </div>
                 </div>
@@ -324,7 +324,7 @@ function Landing() {
                       to="/Sharandy"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
-                      See More
+                      Lihat Selengkapnya
                     </Link>
                   </div>
                 </div>
@@ -356,7 +356,7 @@ function Landing() {
                       to="/Wananta"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
-                      See More
+                      Lihat Selengkapnya
                     </Link>
                   </div>
                 </div>
@@ -388,7 +388,7 @@ function Landing() {
                       to="/Aztravel"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
-                      See More
+                      Lihat Selengkapnya
                     </Link>
                   </div>
                 </div>
@@ -418,7 +418,7 @@ function Landing() {
                       to="/Sharandy-Design"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
-                      See More
+                      Lihat Selengkapnya
                     </Link>
                   </div>
                 </div>
@@ -448,7 +448,7 @@ function Landing() {
                       to="/Svaha"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
-                      See More
+                     Lihat Selengkapnya
                     </Link>
                   </div>
                 </div>
@@ -478,7 +478,7 @@ function Landing() {
                       to="/BDI"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
-                      See More
+                      Lihat Selengkapnya
                     </Link>
                   </div>
                 </div>
@@ -573,7 +573,7 @@ function Landing() {
                           to="/Sharandy"
                           className="inline-block px-10 py-2 mt-7 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                         >
-                          See Detail
+                          Lihat Detail
                         </Link>
                       </div>
                     </div>
@@ -611,7 +611,7 @@ function Landing() {
                           to="/Wananta"
                           className="inline-block px-10 py-2 mt-7 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                         >
-                          See Detail
+                          Lihat Detail
                         </Link>
                       </div>
                       <div className="w-[40%] h-85 max-md:w-full max-md:h-auto">
@@ -734,7 +734,7 @@ function Landing() {
                           to="/AzTravel"
                           className="inline-block px-10 py-2 mt-7 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                         >
-                          See Detail
+                          Lihat Detail
                         </Link>
                       </div>
                     </div>
@@ -989,7 +989,7 @@ function Landing() {
               to="/Gallery"
               className="inline-block px-8 py-3 rounded-4xl text-xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
             >
-              See Gallery
+              Lihat Gallery
             </Link>
           </div>
         </div>
@@ -1002,16 +1002,16 @@ function Landing() {
                 KESIMPULAN
               </span>
               <p className="text-white text-justify text-sm md:text-base mt-4">
-                Dengan mengikuti Praktek Kerja Lapangan di PT Indonesia Online
-                Alamaya, penulis memperoleh pengalaman nyata mengenai alur dan
-                budaya kerja di industri. Kegiatan ini membantu penulis
+                Selama mengikuti Praktek Kerja Lapangan di <span className="font-bold" >PT. Indonesia Online
+                Alamaya</span>, begitu banyak pengalaman nyata yang diperoleh mengenai
+                alur dan budaya kerja di industri. Kegiatan ini membantu
                 mengembangkan kemandirian, tanggung jawab, serta kemampuan
                 beradaptasi dengan lingkungan profesional. Berbagai tugas yang
                 diberikan meningkatkan keterampilan teknis dan pemahaman proses
                 kerja di bidang teknologi. Selain itu, PKL ini membentuk sikap
                 kerja yang profesional, seperti kedisiplinan, etika, komunikasi,
                 dan kerja sama tim. Seluruh pengalaman tersebut menjadi bekal
-                berharga bagi pengembangan kompetensi dan persiapan memasuki
+                berharga untuk pengembangan diri dan persiapan memasuki
                 dunia kerja.
               </p>
             </div>
@@ -1020,10 +1020,10 @@ function Landing() {
                 SARAN
               </span>
               <p className="text-white text-justify text-sm md:text-base mt-4">
-                Penulis berharap perusahaan terus membuka kesempatan PKL bagi
+                 Perusahaan terus membuka kesempatan PKL bagi
                 siswa karena program ini memberikan manfaat bagi kedua pihak,
                 baik dalam bentuk pengalaman kerja nyata bagi siswa maupun
-                dukungan tenaga bagi perusahaan. Penulis juga mengapresiasi
+                dukungan tenaga bagi perusahaan. Saya juga mengapresiasi
                 pihak sekolah yang telah memberikan bimbingan dan persiapan PKL
                 dengan baik serta berterima kasih atas segala dukungan sehingga
                 kegiatan PKL dapat berjalan dengan lancar.
@@ -1043,7 +1043,7 @@ function Landing() {
 export default function App() {
   return (
     <>
-    <ScrollToTop />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/Sharandy-Design" element={<SharandyDesain />} />
