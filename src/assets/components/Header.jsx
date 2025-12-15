@@ -6,7 +6,7 @@ function Header() {
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);
   const baseClasses =
-    "menu bg-white/3 border border-white/12 text-white rounded-full py-2.5 pl-9 w-44 flex justify-center items-center overflow-hidden backdrop-blur-md backdrop-saturate-150 transition-all duration-500 ease-in-out cursor-pointer h-[55px] fixed top-6 left-1/2 -translate-x-1/2 z-[99999] shadow-[0_0_22px_rgba(255,255,255,0.38),0_0_40px_rgba(255,255,255,0.20),0_4px_14px_rgba(0,0,0,0.75),inset_0_1px_0_rgba(255,255,255,0.08)]";
+    "menu bg-white/3 border border-white/12 text-white rounded-[30px] md:rounded-full py-2.5 pl-9 w-44 flex justify-center items-center overflow-hidden backdrop-blur-md backdrop-saturate-150 transition-all duration-500 ease-in-out cursor-pointer h-[55px] fixed top-6 left-1/2 -translate-x-1/2 z-[99999] shadow-[0_0_22px_rgba(255,255,255,0.38),0_0_40px_rgba(255,255,255,0.20),0_4px_14px_rgba(0,0,0,0.75),inset_0_1px_0_rgba(255,255,255,0.08)]";
 
   useEffect(() => {
     const handleClickOutside = (e) => {
