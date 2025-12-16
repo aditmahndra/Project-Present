@@ -94,12 +94,11 @@ function Landing() {
 
               <p className="text-white text-justify pt-4 text-[12px] md:text-[16px] hidden md:block">
                 Selamat datang di website laporan saya! Di sini berisikan
-                laporan mengenai kegiatan PKL yang saya jalani, mulai dari
-                tugas-tugas yang saya kerjakan, pengalaman yang saya
-                dapatkan,hingga berbagai hal baru yang berhasil saya pelajari
-                selama berada di perusahaan. Website ini saya buat sebagai media
-                dokumentasi agar perjalanan PKL saya bisa tersampaikan dengan
-                lebih jelas dan mudah dipahami.
+                laporan mengenai kegiatan PKL saya yang berlangsung dari tanggal
+                1 Agustus Sampai 12 Desember, mulai dari tugas-tugas yang saya
+                kerjakan, pengalaman yang saya dapatkan. Website ini saya buat
+                sebagai media dokumentasi agar perjalanan PKL saya bisa
+                tersampaikan dengan lebih jelas dan mudah dipahami.
               </p>
             </div>
           </div>
@@ -448,7 +447,7 @@ function Landing() {
                       to="/Svaha"
                       className="inline-block px-8 md:px-3 py-3 rounded-4xl text-white bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] hover:bg-white/10 transition"
                     >
-                     Lihat Selengkapnya
+                      Lihat Selengkapnya
                     </Link>
                   </div>
                 </div>
@@ -1002,17 +1001,17 @@ function Landing() {
                 KESIMPULAN
               </span>
               <p className="text-white text-justify text-sm md:text-base mt-4">
-                Selama mengikuti Praktek Kerja Lapangan di <span className="font-bold" >PT. Indonesia Online
-                Alamaya</span>, begitu banyak pengalaman nyata yang diperoleh mengenai
-                alur dan budaya kerja di industri. Kegiatan ini membantu
-                mengembangkan kemandirian, tanggung jawab, serta kemampuan
-                beradaptasi dengan lingkungan profesional. Berbagai tugas yang
-                diberikan meningkatkan keterampilan teknis dan pemahaman proses
-                kerja di bidang teknologi. Selain itu, PKL ini membentuk sikap
-                kerja yang profesional, seperti kedisiplinan, etika, komunikasi,
-                dan kerja sama tim. Seluruh pengalaman tersebut menjadi bekal
-                berharga untuk pengembangan diri dan persiapan memasuki
-                dunia kerja.
+                Selama mengikuti Praktek Kerja Lapangan di{" "}
+                <span className="font-bold">PT. Indonesia Online Alamaya</span>,
+                begitu banyak pengalaman nyata yang diperoleh mengenai alur dan
+                budaya kerja di industri. Kegiatan ini membantu mengembangkan
+                kemandirian, tanggung jawab, serta kemampuan beradaptasi dengan
+                lingkungan profesional. Berbagai tugas yang diberikan
+                meningkatkan keterampilan teknis dan pemahaman proses kerja di
+                bidang teknologi. Selain itu, PKL ini membentuk sikap kerja yang
+                profesional, seperti kedisiplinan, etika, komunikasi, dan kerja
+                sama tim. Seluruh pengalaman tersebut menjadi bekal berharga
+                untuk pengembangan diri dan persiapan memasuki dunia kerja.
               </p>
             </div>
             <div className="col-span-12 md:col-span-5 py-8 px-4 md:p-10 md:px-8 rounded-4xl bg-white/5 border border-white/20 backdrop-blur-[14px] backdrop-saturate-[160%] text-center">
@@ -1020,13 +1019,13 @@ function Landing() {
                 SARAN
               </span>
               <p className="text-white text-justify text-sm md:text-base mt-4">
-                 Perusahaan terus membuka kesempatan PKL bagi
-                siswa karena program ini memberikan manfaat bagi kedua pihak,
-                baik dalam bentuk pengalaman kerja nyata bagi siswa maupun
-                dukungan tenaga bagi perusahaan. Saya juga mengapresiasi
-                pihak sekolah yang telah memberikan bimbingan dan persiapan PKL
-                dengan baik serta berterima kasih atas segala dukungan sehingga
-                kegiatan PKL dapat berjalan dengan lancar.
+                Perusahaan terus membuka kesempatan PKL bagi siswa karena
+                program ini memberikan manfaat bagi kedua pihak, baik dalam
+                bentuk pengalaman kerja nyata bagi siswa maupun dukungan tenaga
+                bagi perusahaan. Saya juga mengapresiasi pihak sekolah yang
+                telah memberikan bimbingan dan persiapan PKL dengan baik serta
+                berterima kasih atas segala dukungan sehingga kegiatan PKL dapat
+                berjalan dengan lancar.
               </p>
             </div>
           </div>
